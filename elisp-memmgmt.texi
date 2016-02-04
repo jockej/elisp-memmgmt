@@ -1,0 +1,55 @@
+
+@c Local Variables:
+@c mode: texinfo
+@c TeX-master: t
+@c End:
+
+\input texinfo   @c -*-texinfo-*-
+@c %**start of header
+@setfilename elisp-memory-management.info
+@settitle name-of-manual version
+@c %**end of header
+
+@copying
+This manual is for Emacs, version 25
+
+Copyright @copyright{} years copyright-owner.
+
+@quotation
+Permission is granted to …
+@end quotation
+@end copying
+@titlepage
+@title Emacs Lisp Memory Management
+@subtitle A survey
+@subtitle second-subtitle
+@author Joakim Jalap
+@c  The following two commands
+@c  start the copyright page.
+@page
+@vskip 0pt plus 1filll
+@insertcopying
+Published by …
+@end titlepage
+
+@c So the toc is printed at the start.
+@contents
+
+@ifnottex
+@node Top
+@top title
+
+This manual is for Emacs 25.
+@end ifnottex
+
+@menu
+* First Chapter::    Introduction
+* Second Chapter::   Stuff
+
+* Copying::          Your rights and freedoms.
+@end menu
+@node Overview
+@chapter Overview
+
+@cindex first chapter
+@cindex chapter, first
